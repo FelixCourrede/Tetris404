@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: '/notFound',
       name: 'notfound',
-      component: () => import('../views/AboutView.vue')
+      component: () => import('../views/NotFoundView')
     }
   ]
 })
